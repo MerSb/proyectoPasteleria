@@ -41,6 +41,20 @@
         "description": "Torta elaborada de 10 discos de masa con una capa de dulce de leche y nuez, cubierto de un merengue suizo a base de miel de caña decorada con nueces y miel.",
         "price": 5500,
         "category": "Tartas"
+      },
+      {
+        "id": 7,
+        "name": "Cheescake de Frutos Rojos",
+        "description": "Delicioso pastel de queso frío, extremadamente cremoso que trae una capa de galleta crocante de base, cremor al medio y finaliza con una capa muy generosa de mermelada de frutos rojos(frutilla, arandanos, frambuesa, moras).",
+        "price": 6000,
+        "category": "Cheesecake"
+      },
+      {
+        "id": 8,
+        "name": "Cheescake de Maracuyá",
+        "description": "Delicioso pastel de queso frío, extremadamente cremoso que trae una capa de galleta crocante de base, cremor al medio y finaliza con un capa muy generosa de mermelada de maracuyá muy aromatico.",
+        "price": 6000,
+        "category": "Cheesecake"
       }
     ]
 }

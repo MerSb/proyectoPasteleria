@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('node:path');
 const crypto = require('crypto')
-const pathFile = path.join( __dirname, '..', 'db', 'user-data.json' );
-const userData = require('../db/user-data.json'); // Parsear JSON -> JS
+const pathFile = path.join( __dirname, '..', 'dataBase', 'user-data.json' );
+const userData = require('../dataBase/user-data.json'); // Parsear JSON -> JS
 const { hashSync, compareSync } = require('bcryptjs')
 
 const controller = {
