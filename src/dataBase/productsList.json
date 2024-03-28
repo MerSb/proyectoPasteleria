@@ -1,5 +1,46 @@
 {
     "results": [
-        
+      {
+        "id": 1,
+        "name": "Torta de Selva Negra",
+        "description": "Deliciosa torta de chocolate con cobertura de crema chantilly embarrado de chocolate y con frutillas de decoracion. Rellena de una capa gruesa de crema chantilly y frutillas/cerezas.",
+        "price": 6500,
+        "category": "Tortas"
+      },
+      {
+        "id": 2,
+        "name": "Cupcakes de Vainilla",
+        "description": "Cupcakes esponjosos de vainilla con chispas de chocolate.",
+        "price": 6000,
+        "category": "Cupcakes"
+      },
+      {
+        "id": 3,
+        "name": "Cupcakes de Chocolate",
+        "description": "Cupcakes esponjosos elaborados con cacao oreo para mas intensidad en el sabor a chocolate.",
+        "price": 6000,
+        "category": "Cupcakes"
+      },
+      {
+        "id": 4,
+        "name": "Tarta de Frutas",
+        "description": "Tarta fresca con una mezcla de frutas de temporada sobre una base de masa quebrada, con una base de dulce de leche y rellena de crema chantilly.",
+        "price": 4500,
+        "category": "Tartas"
+      },
+      {
+        "id": 5,
+        "name": "Tarta de Frutillas",
+        "description": "Tarta fresca con una generosa cantidad de frutillas sobre una base de masa quebrada, con una base de dulce de leche y rellena de crema chantilly.",
+        "price": 4500,
+        "category": "Tartas"
+      },
+      {
+        "id": 6,
+        "name": "Torta Rogel",
+        "description": "Torta elaborada de 10 discos de masa con una capa de dulce de leche y nuez, cubierto de un merengue suizo a base de miel de caña decorada con nueces y miel.",
+        "price": 5500,
+        "category": "Tartas"
+      }
     ]
 }
