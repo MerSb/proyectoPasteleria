@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head.ejs') %>
+
+</head>
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main>
+        <form action="/users/edit/<%= old.id %>?_method=PUT" method="post" class="form-data">
+            <div class="label-form">
+                <label for="username">Nombre de usuario
+                </label>
+                <input type="text" id="username" name="username" value="<%= ( locals.old && old.username ) ? old.username : '' %>">
+                <% if( locals.errors && errors.username ){ %>
+                    <p> <%= errors.username.msg %> </p>
+                <% } %>
+            </div>
+    
+            <div class="label-form">
+                <label for="email">Email
+                </label>
+                <input type="email" id="email" name="email" value="<%= ( locals.old && old.email ) ? old.email : ''  %>">
+                <% if( locals.errors && errors.email ){ %>
+                    <p> <%= errors.email.msg %> </p>
+                <% } %>
+            </div>
+    
+            <!-- <div class="label-form">
+                <label for="password">Password
+                </label>
+                <input type="password" name="password" id="password">
+                <% if( locals.errors && errors.password ){ %>
+                    <p> <%= errors.password.msg %> </p>
+                <% } %>
+            </div> -->
+    
+            <button type="submit">Actualizar</button>
+            <!-- <a href="/users/login">
+                <button class="btn" type="button">Login</button>
+            </a> -->
+            
+        </form>
+
+    </main>
+    
+</body>
+</html>
